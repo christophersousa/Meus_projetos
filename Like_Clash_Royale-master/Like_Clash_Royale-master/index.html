@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Like Clash Royale</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/ggpopover.css">
+	<link rel="stylesheet" href="css/changeBanner.css">
+  	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styleContent.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="js/jquery-2.1.0.min.js"></script>
+	<script src="js/scriptContent.js"></script>
+	<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+</head>
+<body>
+
+	<!-- <div class="background "></div> -->
+
+	<header>
+			<nav>
+			<ul>
+				<a href="index.html"><li>Home</li></a>
+				<a href="#"><li>News</li></a>
+				<a href="index2.html"><li>Cards</li></a>
+			</ul>
+			<img id="logo" class="animated fadeInRightBig" src="imagens/logo.png">
+			<ul>
+				<a href="#cards"><li>Random-Deck</li></a>
+				<a href="#arenas"><li>Arenas</li></a>
+				<a href="#footer"><li>Contacts</li></a>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="container">
+        <div class="jcarousel">
+            <ul class="slides">
+                <li data-number="1"><img src="./imagens/slide1.jpg"></li>
+                <li data-number="2"><img src="./imagens/slide2.jpg"></li>
+                <li data-number="3"><img src="./imagens/slide3.jpg"></li>
+                <li data-number="4"><img src="./imagens/slide4.jpg"></li>
+                <li data-number="5"><img src="./imagens/slide5.jpg"></li>
+            </ul>
+            <div class="jcarousel-pagination">
+            </div>
+        </div>
+    </div>
+
+	<!-- <section id="banners">
+		<div id="arrowsAndDots">
+			<i class="fa fa-angle-left"></i>
+			<i class="fa fa-angle-right"></i>
+		</div>
+	</section> -->
+
+	<div class="pageTotal">
+		<div class="pag">
+			<section class="intro">
+				<div id="icon1"><img src="imagens/icon1.png" class="animated pulse">
+					<h3>Serch Cards</h3>
+					<p> Pesquise cartas por categorias e se divirta com nosso Super Random Deck</p>
+				</div>
+				<div id="icon2" ><img src="imagens/bau-super-magico.png " class="animated bounce">
+					<h3>Arenas &amp; Chest Infos</h3>
+					<p> Veja informações sobre arenas, baús e as novidades do Clash Royale</p>
+				</div>
+				<div id="icon3"><img src="imagens/thumbs-up.gif">
+					<h3>News</h3>
+					<p> Fique por dentro de tudo que acontece no Clash Royalle com nossa super News</p>
+				</div>
+			</section>
+		
+	
+	<footer>
+	<div class="populares">
+		<h2> News </h2>
+		<div class="new1">
+		<img src="imagens/blog-some.jpg">
+		<div class="titleNews">News</div>
+		<div class="manchete">Our Most Electrifying Update Yet!</div>
+		<p>ONE new Arena, TWO new cards and THREE new chests! <span class="lerMais">Read More</span></p>
+		</div>
+		<div class="nextPrevious">
+		<div class="previous"><span class="iconnextPrevious"> < </span> Previous</div>
+		<div class="next"><span class="iconnextPrevious"> > </span> Next</div>
+		<div class="scrollContent">
+
+		<img src="imagens/blog-some.jpg">
+
+		<div class="manchete">Our Most Electrifying Update Yet!</div>
+
+		<ul><h3>ONE NEW ARENA</h3>
+			<li>Electro Valley: Reach this new Arena at 3400 Trophies</li>
+			<li>Legendary Arena: Now Arena 12 with rewards (chests, Victory Gold, etc.) increased accordingly</li>
+
+		</ul>
+		<ul><h3>TWO NEW CARDS</h3>
+
+			<li>Zappies: Spawns a pack of miniature Zap machines. Who controls them...? Only the Master Builder knows.</li>
+
+			<li>Hunter: He deals BIG damage up close - not so much at range. What he lacks in accuracy, he makes up for with his impressively bushy eyebrows.</li>
+
+			<li>Unlock them both today!</li>
+		</ul>
+
+		<ul><h3>THREE NEW CHESTS</h3>
+
+			<li>Lightning Chest: Replace card stacks of your choice with up to 5 "Strikes"</li>
+
+			<li>Fortune Chest: Get a glimpse of the future and see what your chest might contain...</li>
+
+			<li>King's Chest / Legendary King's Chest: Big chests with a focus on Epic and Legendary Cards</li>
+
+			<li>Pick up these new chests from Quests and the Shop</li>
+		</ul>
+
+		<ul><h3>FOUR MORE THINGS</h3>
+
+			<li>Coming in December: Gold Rush, Gem Rush, Special Challenges and Boosts!</li>
+		</ul>
+
+		<ul><h3>IMPROVEMENTS</h3>
+
+			<li>The "Daily Gifts" Quest is now always active</li>
+			<li>Epic and Legendary Cards now appear in the Shop more often at 4000+ Trophies</li>
+			<li>Cards at max level are less likely to appear in the Shop and Fortune Chest</li>
+			<li>Support for iPhone X, Samsung Galaxy S8/S8+ and Note8</li>
+		</ul>
+		<span class="button b-close">X</span>
+		<span class="nothing">
+		<li> </li>
+		</span>
+		</div>
+		</div>
+	</div>
+
+		<div class="box"><div class="button b-close">X</div><div class="boxContent"></div></div>
+
+	<div class="random-deck animated bounce">
+
+		<h2> Random Deck </h2>
+
+		<div id="cards"><ul class="cards"></ul></div>
+		<button id="random-deck">Next Random Deck</button>
+
+	</footer>
+	<div id="arenas">
+		<div class="box "><div class="button b-close ">X</div><div class="boxContent"></div></div></div></div>
+
+	</div>
+</div>
+</div>
+
+	<section id="footer">
+		<p>
+			<a id="api-link" href="https://github.com/martincarrera/clash-royale-api" target="_blank">
+				<i class="fa fa-github" aria-hidden="true"></i>
+				&nbsp;
+				Clash Royale API
+			</a>
+		</p>
+		<hr>
+		<p>
+			Este site foi desenvolvido por
+			<a class="dev" href="https://www.facebook.com/profile.php?id=100003814391152" target="_blank">John Oliver</a>,
+			<a class="dev" href="https://www.facebook.com/marlon.fernando.3114" target="_blank">Marlon Fernando</a>, e
+			<a class="dev" href="https://twitter.com/Tales313" target="_blank">Tales Medeiros</a>
+			como um projeto para a disciplina de Linguagem de Script do curso de TSI do IFPB.
+		</p>
+	</section>
+
+</body>
+	<script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="./js/jquery.jcarousel.js"></script>
+	<script type="text/javascript" src="./js/ggpopover.js"></script>
+	<script src="./js/changeBannerv2.js"></script>
+	<script src="js/jquery.bpopup.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="build/bundle.js"></script>
+</html>

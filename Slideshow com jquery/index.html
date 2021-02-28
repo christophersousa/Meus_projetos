@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/css.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<div class="div-slider">
+  <ul class="slides-front">
+    <input type="radio" name="radio-btn" id="img-1" checked="">
+    <li class="slide-container">
+       <div class="slide">
+         <img class="slide-img" src="https://www.cleverfiles.com/howto/wp-content/uploads/2016/08/mini.jpg">
+       </div>
+       <div class="nav">
+         <label for="img-3" class="prev">‹</label>
+         <label for="img-2" class="next">›</label>
+       </div>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-2">
+    <li class="slide-container">
+        <div class="slide">
+          <img class="slide-img" src="https://media.alienwarearena.com/media/1327-w.jpg">
+        </div>
+    <div class="nav">
+      <label for="img-1" class="prev">‹</label>
+      <label for="img-3" class="next">›</label>
+    </div>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-3">
+    <li class="slide-container">
+        <div class="slide">
+          <img class="slide-img" src="https://imagens.canaltech.com.br/123987.210185-JPG.jpg">
+        </div>
+    <div class="nav">
+      <label for="img-2" class="prev">‹</label>
+      <label for="img-1" class="next">›</label>
+    </div>
+    </li>
+
+    <li class="nav-dots">
+      <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+      <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+      <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+    </li>
+  </ul>
+</div>
+
+<script src="./jquery.js"></script>   
+</body>
+</html>

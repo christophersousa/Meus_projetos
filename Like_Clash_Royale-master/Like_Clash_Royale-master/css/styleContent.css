@@ -1,0 +1,46 @@
+.scrollContent{
+			
+	background-color: #dddddd;
+	color: black;
+	height: 90%;
+	width: 400px;	
+	display: none;
+	position: fixed;
+	top: 5%;
+	left: 35%;
+	z-index: 10002;
+}
+.closeContent{
+	cursor: pointer
+}
+.scrollContent li{
+	font-size: 1.1em;
+	list-style: disc;
+	font-family: 'Nunito', sans-serif;
+}
+.scrollContent .manchete{
+	text-align: center;
+	color: black;
+	font-size: 1.1em;
+	margin-top: 200px;
+} 
+.scrollContent img{
+	top: 0%;
+	position: fixed;
+	display: block;
+	width: 384px;
+
+}
+.closeContent{
+	color: white;
+	
+	text-align: center;
+	background-color: red;
+	padding: 5px 10px;
+	margin-left: 170px;
+	border-radius: 50px;
+}
+.nothing li{
+	
+	color: #dddddd;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/modal.css">
+    <title>Document</title>
+
+   
+</head>
+<body>
+    <P class="cadastro"><a href="http://www.superanimes.com/fairy-tail/episodio-233"></a>Cadastre-se</P>
+
+    <div class="modal-container" id="modal-cadastro">
+        <div class="modal">
+            <h3>Login</h3>
+            <form action="">
+                <button class="close">X</button>
+                <div>
+                    <label for="email" class="email"><i class="fas fa-user"></i> Login:</label>
+                    <br>
+                    <input type="text" name="email" id='email' placeholder="informe o nome do usuario...">
+                </div>
+                <div>
+                    <label for="senha" class="senha"><i class="far fa-eye"></i> Senha:</label>
+                    <br>
+                    <input type='password' id="senha" name='senha' placeholder="informe a senha..." >
+                </div>
+                <div>
+                    <input type="checkbox" name="lembre" id="lembre" value="Ok"  >
+                    <label for="lembre" class="lembre">Lembre-me.</label>
+                </div>
+                <div>
+                    <input type="submit" name='enviar' id='enviar' value="Enviar">
+                </div>
+                <hr>
+                <div class="complemento">
+                    <button class="cancele"><i class="far fa-times-circle"></i> cancelar</button>
+
+                    <div class="complementos">
+                        <p><a href="##">Esqueci minha senha</a></p>
+                        <p><a href="##">Cadastre-se</a></p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="./javascript/modal.js"></script>
+</body>
+</html>
